@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin : 0px;
+            padding : 0px;
+            box-sizing : border-box;
+        }
+        
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+            color : red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #myElement{
+            background-color: skyblue;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="Alex" class="box">
+        Alex
+    </div>
+    <div id="myElement" class="box">
+        Ben
+    </div>
+
+
+    <script>
+
+        // The "offsetParent" is closest positioned(an element with a position property other than 'static') ancestor element. if no such ancestor then offset parent will be <body> element. 
+        // Example, visit: ./check/my_trial.html
+
+        const element = document.getElementById('myElement');
+        const topPosition = element.offsetTop;
+        const height = element.offsetHeight;
+        // height of the element including the padding and borders
+            
+        console.log(`The top position of 'myElement' relative to its offsetParent is: ${topPosition}px`);
+        console.log(`The height of the element is: ${height}px`);
+            
+
+    </script>
+
+</body>
+</html>

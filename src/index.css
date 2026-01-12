@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+/* This ensures smooth scrolling works everywhere even with anchor tags also it perfrom smooth scrolling. */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
