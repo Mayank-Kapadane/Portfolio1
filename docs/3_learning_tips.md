@@ -1,4 +1,4 @@
-After completing project how to clone/setup project and run your local that information  
+After completing project. Create a **readme.md** that tell how to clone/setup project and run your local that information  
 
 if you need files during development
 - USAGE.md
@@ -21,10 +21,10 @@ Documentation is your best friend
 - create state, use hooks keep in mind what do what(or write in NOTES.md). At the end the Picture becomes clear. 
 
 
-By placing one, one block entire bulding will be created. 
+By placing one(one block, one by one) entire bulding will be created. 
 - Rome wasn't build in a day.
 
-Please 🙏, never give up.
+Please 🙏, `never give up`.
 
 keep the code clean, Do not add to much comments. Only where needed. Where it is hard to understand what the logic is. 
 Code should be like, You read the code and you understand what it does. means use that much meaningful names. 

@@ -1,15 +1,11 @@
-
-
-
-## App.jsx
-- Navbar.jsx (component)
-
-
 ## Navbar.jsx
 - For mobile screen we need to add burger icon 
 
-**what we have:** 
-- 3 states 
+**We have:** 
+- 3 states
+    - isOpen : handle mobile screen hamburger(menu icon) opened or not. 
+    - scrolled: It has value(page scrolled height). Otherwise if the page is not scrolled then value = false . 
+    - activeSection: 
 - Array of object for storing navitens
 - useEffect hook 
     - When a useEffect is called, when the component 
